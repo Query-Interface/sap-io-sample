@@ -1,0 +1,15 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   controllerName="sap.io.demo.controller.App">
+   <List
+      headerText="Products"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{/products}" >
+      <items>
+         <ObjectListItem
+            title="{id} | {productType}"/>
+      </items>
+   </List>
+</mvc:View>
